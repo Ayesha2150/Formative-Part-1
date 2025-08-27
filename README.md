@@ -56,5 +56,3 @@ Design and User Experience
 Conclusion  
 This website demonstrates the core values of the SPCA Cape of Good Hope by providing an accessible and informative platform for users to adopt, donate, volunteer, and learn about animal welfare.  
 
-
-## 📂 File Structure  
