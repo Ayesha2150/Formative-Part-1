@@ -101,3 +101,16 @@ This website showcases the SPCA Cape of Good Hope, providing information on adop
 ## Conclusion  
 This website demonstrates the core values of the SPCA Cape of Good Hope by providing an accessible and informative platform for users to adopt, donate, volunteer, and learn about animal welfare.
 
+
+## REFERENCES 
+Mozilla Developer Network (MDN), 2023. CSS: Cascading Style Sheets. [online] Available at: < https://developer.mozilla.org/en-US/docs/Web/CSS > [Accessed 26 September 2025]. 
+Mozilla Developer Network (MDN), 2023. HTML: HyperText Markup Language. [online] Available at: < https://developer.mozilla.org/en-US/docs/Web/HTML > [Accessed 26 September 2025]. 
+Mozilla Developer Network (MDN), 2023. Responsive design. [online] Available at: <https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design > [Accessed 26 September 2025]. 
+W3Schools, 2023. CSS Tutorial. [online] Available at:  <https://www.w3schools.com/css/ > [Accessed 26 September 2025]. 
+W3Schools, 2023. HTML Tutorial. [online] Available at:< https://www.w3schools.com/html/ > [Accessed 26 September 2025]. 
+Society for the Prevention of Cruelty to Animals (SPCA), 2023. Cape of Good Hope SPCA. [online] Available at: < https://capespca.co.za/ > [Accessed 26 September 2025]. 
+
+ 
+
+ 
+
