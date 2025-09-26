@@ -1,11 +1,20 @@
 # Formative-Part-1
 SPCA Cape of Good Hope Website  
 
-Project Overview  
-This project is a multi-page website designed for the SPCA Cape of Good Hope.  
-The website provides information about the organization, showcases animals up for adoption, encourages donations, and raises awareness about animal welfare through education.  
 
-The goal is to design a clean, accessible, and user-friendly platform** that promotes compassion, trust and action.  
+## Overview
+This website showcases the SPCA Cape of Good Hope, providing information on adoption, donations, education, services, and contact. It is fully responsive for desktop, tablet, and mobile devices, and uses a consistent color palette of **Dark Blue, Orange, and White** for a professional yet friendly look.  
+
+## Goals for the website 
+Raise awareness about the SPCA’s mission and values.
+Educate the public on responsible pet ownership and animal welfare.
+Showcase adoptable pets and make the adoption process simple.
+Promote adoption over buying pets from breeders or shops.
+Encourage community involvement through volunteering and fostering.
+Provide an enquiries page for questions and event information.
+Support fundraising with a clear, user-friendly donation form.
+Show how donations are used (food, medicine, shelter improvements).
+  
 
 Website Structure (HTML Pages)  
 1. Home (index.html) 
@@ -51,8 +60,44 @@ Design and User Experience
 - Navigation links across all pages  
 - Donation form that simulates a real payment process (redirects to Thank You page)  
 - Organized gallery for adoptions  
-- Educational content to raise awareness  
+- Educational content to raise awareness
 
-Conclusion  
-This website demonstrates the core values of the SPCA Cape of Good Hope by providing an accessible and informative platform for users to adopt, donate, volunteer, and learn about animal welfare.  
+# SPCA Cape of Good Hope Website
+## Overview
+This website showcases the SPCA Cape of Good Hope, providing information on adoption, donations, education, services, and contact. It is fully responsive for desktop, tablet, and mobile devices, and uses a consistent color palette of **Dark Blue, Orange, and White** for a professional yet friendly look.  
+
+## Improvements
+- Added a **hero background image** with dark overlay for readability.  
+- Enhanced the **Adoption page** with a responsive horizontal grid for pet cards.  
+- Redesigned **Education page** with playful headings, icons, and colored sections to keep users engaged.  
+- Updated **About page** with smaller, uniform images (250px width) and impact/statistics cards.  
+- Unified **button styling** and hover effects across all pages.  
+- Fixed **Contact page** layout and form styling for better usability.  
+- Ensured all headings have **subtle hover color effects** instead of excessive movement.  
+- Adjusted hero section **padding and layout** for better responsiveness.  
+- Standardized **fonts, padding, and border-radius** for a consistent look and feel.  
+
+
+## Refinements
+- Background image overlay ensures text is readable on hero section.  
+- Improved **color contrast**: dark blue headers, orange accents, white/light-gray backgrounds.  
+- All pages linked to a **single style.css** to maintain consistent styling.  
+- Adoption and gallery images optimized and constrained to **max-width: 250px**.  
+- Added **hover effects** for cards, buttons, and list items for interactive feel.  
+- Content sections separated with spacing, borders, and cards to reduce “wall of text” effect.  
+- Media queries ensure **responsive layouts** for phones, tablets, and desktops.  
+- Footer consistent on all pages with dark background and white text.  
+
+## Changelog
+ – Initial website with basic HTML pages and CSS.  
+ – Hero image and overlay added, navigation links improved.  
+ – Adoption page updated with responsive grid layout for pet cards.  
+ – Education page redesigned with playful icons and colored sections.  
+ – About page images resized, impact cards added, and consistent styling applied.  
+ – Contact page fixed, form styling improved, headings refined.  
+ – Final adjustments for submission: fully responsive, consistent styling. 
+
+ 
+## Conclusion  
+This website demonstrates the core values of the SPCA Cape of Good Hope by providing an accessible and informative platform for users to adopt, donate, volunteer, and learn about animal welfare.
 
