@@ -1,0 +1,291 @@
+/* ========== GLOBAL STYLES ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #1e3a8a;
+  --orange: #f97316;
+  --white: #ffffff;
+  --light-gray: #f9fafb;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: var(--light-gray);
+}
+
+/* Links & Buttons */
+a {
+  color: var(--dark-blue);
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover {
+  color: #13306b;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--dark-blue);
+  color: var(--white);
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.btn:hover {
+  background: #13306b;
+}
+.btn-alt {
+  background: var(--orange);
+}
+.btn-alt:hover {
+  background: #d65c0f;
+}
+
+/* ========== HEADER & NAV ========== */
+header h1 {
+  text-align: center;
+  color: var(--white);
+  background: var(--dark-blue);
+  padding: 15px 0;
+  border-radius: 0 0 10px 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 15px;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+nav ul li a.active,
+nav ul li a:hover {
+  background: var(--dark-blue);
+  color: var(--white);
+}
+
+/* ========== HERO SECTION WITH BACKGROUND IMAGE ========== */
+.hero {
+  background: url("../images/cute-dog.jpg") center/cover no-repeat;
+  position: relative; /* keeps overlay in place */
+  text-align: center;
+  padding: 110px 20px;
+  color: var(--white);
+}  
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4); /* 40% dark overlay for readability */
+  z-index: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1; /* ensures text stays above overlay */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+.hero p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
+
+/* ========== HIGHLIGHTS ========== */
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.highlight {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.highlight:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 10px rgba(0,0,0,0.12);
+}
+.highlight h2 {
+  margin-bottom: 10px;
+  color: var(--dark-blue);
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* ========== ABOUT / IMPACT PAGE ========== */
+.values,
+.impact-grid,
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.values div,
+.impact-grid div {
+  background: var(--white);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  flex: 1 1 250px;
+}
+.values h3 {
+  color: var(--dark-blue);
+  margin-bottom: 1rem;
+}
+.impact-grid h4 {
+  color: var(--orange);
+  font-size: 2rem;
+  margin: 0.5rem 0;
+}
+.gallery-grid img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* ========== ADOPTION PAGE ========== */
+.adopt-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px 20px;
+}
+.pet-card {
+  background: var(--white);
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.pet-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+.pet-card img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* ========== EDUCATION PAGE ========== */
+.education-content {
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: auto;
+  line-height: 1.8;
+}
+.education-content h3 {
+  color: var(--orange);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid var(--orange);
+}
+.education-content ul {
+  list-style: none;
+  padding: 0;
+}
+.education-content li {
+  background: var(--light-gray);
+  border-left: 4px solid var(--dark-blue);
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+.education-content li:hover {
+  background: var(--white);
+}
+
+/* ========== DONATE / CONTACT FORMS ========== */
+form {
+  background: var(--white);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+button {
+  background: var(--dark-blue);
+  color: var(--white);
+  font-weight: bold;
+  border: none;
+  transition: background 0.3s ease;
+}
+button:hover {
+  background: #13306b;
+}
+
+/* ========== CTA ========== */
+.cta {
+  background: var(--dark-blue);
+  color: var(--white);
+  text-align: center;
+  padding: 40px 20px;
+}
+.cta a.button {
+  background: var(--white);
+  color: var(--dark-blue);
+  transition: background 0.3s ease;
+}
+.cta a.button:hover {
+  background: #f97316;
+  color: var(--white);
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background: #222;
+  color: var(--white);
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* ========== HEADINGS STYLING ========== */
+h1, h2, h3, h4 {
+  transition: color 0.3s ease; /* no scaling movement */
+}
+h1:hover, h2:hover, h3:hover, h4:hover {
+  color: var(--orange); /* subtle hover effect only */
+}
