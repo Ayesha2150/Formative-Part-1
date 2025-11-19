@@ -190,10 +190,17 @@ This website demonstrates the core values of the SPCA Cape of Good Hope by provi
 ## References
 
 Google (2023) _Google Search Central documentation_. Available at: https://developers.google.com/search/docs(Accessed: 19 November 2025).
+
 Mozilla Developer Network (2023) _CSS: Cascading Style Sheets_. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS(Accessed: 19 November 2025).
+
 Mozilla Developer Network (2023) _HTML: HyperText Markup Language_. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML (Accessed: 19 November 2025).
+
 Mozilla Developer Network (2023) _JavaScript Guide_. Available at: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide (Accessed: 19 November 2025).
+
 Mozilla Developer Network (2023) _Responsive design_. Available at: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design (Accessed: 19 November 2025).
+
 W3Schools (2023) _CSS Tutorial_. Available at: https://www.w3schools.com/css/ (Accessed: 19 November 2025).
+
 W3Schools (2023) _HTML Tutorial_. Available at: https://www.w3schools.com/html/ (Accessed: 19 November 2025).
+
 W3Schools (2023) _JavaScript Tutorial_. Available at: https://www.w3schools.com/js/ (Accessed: 19 November 2025).
