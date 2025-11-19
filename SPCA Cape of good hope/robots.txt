@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://your-website-url.com/sitemap.xml
+
+# Directories to avoid
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+
+# Allow all important pages
+Allow: /index.html
+Allow: /about.html
+Allow: /adopt.html
+Allow: /donate.html
+Allow: /contact.html
+Allow: /enquiry.html
+Allow: /education.html

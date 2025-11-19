@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Enquiry - SPCA Cape of Good Hope</title>
+  <meta name="description" content="Enquire about pet adoption, volunteering, sponsorship programs, or other services at SPCA Cape of Good Hope">
+  <meta name="keywords" content="SPCA services, volunteer enquiry, adoption information, sponsorship programs">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <header>
+    <h1>SPCA Cape of Good Hope</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="adopt.html">Adopt</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="enquiry.html" class="active">Service Enquiry</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="education.html">Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <h1>Service Enquiries</h1>
+      <p>Have questions about our services? We're here to help! Get information about adoption, volunteering, sponsorship, or anything else.</p>
+    </section>
+
+    <!-- Simple Enquiry Form -->
+    <section class="enquiry-form">
+      <h2>Tell Us What You Need</h2>
+      <p>Fill out the form below and we'll get back to you with all the information you need.</p>
+
+      <form id="enquiryForm">
+        <label for="enquiryType">What would you like to know about? (Optional)</label>
+        <select id="enquiryType" name="enquiryType">
+          <option value="">-- General enquiry --</option>
+          <option value="adoption">Pet Adoption</option>
+          <option value="volunteer">Volunteering</option>
+          <option value="sponsor">Sponsorship</option>
+          <option value="foster">Fostering</option>
+          <option value="education">Education Programs</option>
+          <option value="events">Events</option>
+          <option value="other">Something else</option>
+        </select>
+
+        <label for="name">Your Name: *</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+        <label for="email">Your Email: *</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+        <label for="phone">Your Phone: *</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+        <label for="message">What would you like to know? *</label>
+        <textarea id="message" name="message" rows="6" placeholder="Please tell us about your enquiry. Ask about costs, availability, requirements, or anything else you'd like to know..." required></textarea>
+
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+
+      <div id="enquiryResponse" style="display: none; padding: 25px; margin: 20px 0; border-radius: 10px; text-align: center; font-size: 1.1rem; line-height: 1.6;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 SPCA Cape of Good Hope</p>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
